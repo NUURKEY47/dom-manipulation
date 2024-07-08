@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(EASTCODE.png)
+}
+
+.container {
+    max-width: 500px;
+    margin:auto;
+    text-align: center;
+}
+.h1{
+    color:black;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    color:black;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+button {
+    margin: 5px;
+}
